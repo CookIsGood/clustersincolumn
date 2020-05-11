@@ -72,7 +72,7 @@ def plot_to_iter(X, max_iter=2):
     sizex = size_X[0]
     print("Количество повторений", max_iter)
     number_speed = [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
-    print("Массив скорсотей", number_speed)
+    print("Массив скоростей", number_speed)
     for i in range(max_iter):
         for k in range(sizex):
             X[k, :] = np.roll(X[k, :], number_speed[k])
