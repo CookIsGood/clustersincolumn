@@ -53,10 +53,10 @@ def calc_str(X):
             liner = 0
         color[k, :] = random_colors[curr, :]
     clustinline[X.shape[0] - 1] = (num_clusters - (np.sum(clustinline) - 1))
-    print("Кол-во кластеров")
+    print("Количество кластеров")
     print(num_clusters)
     # print(color)
-    print("Кол-во кластеров в линии")
+    print("Количество кластеров в линии")
     print(clustinline)
     print("Макс длина")
     print(maxline)
